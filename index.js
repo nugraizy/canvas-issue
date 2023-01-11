@@ -42,4 +42,4 @@ wrap(canvasJScript, 'Hello World', {
 });
 
 await fs.writeFile('./canvas-rs-result.png', Buffer.from(canvasRust.toBuffer('image/png'), 'base64'));
-await fs.writeFile('./canvas-rs-result.png', Buffer.from(canvasJScript.toBuffer(), 'base64'));
+await fs.writeFile('./canvas-js-result.png', Buffer.from(canvasJScript.toBuffer('image/png'), 'base64'));
