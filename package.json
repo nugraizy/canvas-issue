@@ -1,0 +1,19 @@
+{
+  "name": "canvas-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.33",
+    "canvas": "^2.11.0",
+    "canvas-text-wrapper": "github:cyberj/canvas-text-wrapper#master",
+    "fs-extra": "^11.1.0"
+  }
+}
